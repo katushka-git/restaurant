@@ -1,0 +1,12 @@
+.container{
+    width: 1500px;
+    margin: auto;
+}
+.nav{
+    background-color: white;
+}
+.nav-item{
+    text-transform: uppercase;
+    font-weight:bold;
+    color: black;
+}
