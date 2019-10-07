@@ -1,12 +1,46 @@
+.body{
+    position: relative;
+}
+.wrap{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, .7);
+    z-index: 900;
+   
+}
+.wrap ul{
+
+}
+.wrap .navbar-nav .nav-link{
+    color:white;
+}
 .container{
     width: 1500px;
     margin: auto;
 }
-.nav{
-    background-color: white;
+.main-nav{
+    height: 90px;
+    /* background-color: yellowgreen; */
 }
-.nav-item{
+.nav-link{
     text-transform: uppercase;
     font-weight:bold;
     color: black;
+}
+.c-white{
+        color: white;
+    }
+.baner{
+    height: 585px; 
+    background: url(../images/first-bg.jpg) no-repeat; 
+    background-size: cover; 
+}
+.slogan{
+    color: white;
+}
+.orange{
+    color: #fea100;
 }
